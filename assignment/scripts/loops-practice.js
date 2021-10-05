@@ -12,19 +12,35 @@ for (let i=0; i<4; i++) {
 
 // 1.a. TODO: Write a for loop to console.log the numbers from 0 to 5 
 //   - Which part of the example loop do you need to change to do this?
+
+// We have to change the number variable i<4 to i<6.
+
 console.log('count from 0 to 5');
+for (let i=0; i<6; i++) {  
+  console.log(i);
+}
 
 // 1.b. TODO: Write a for loop to console.log the numbers from 3 to 5
 //   - Which part of the example loop do you need to change to do this?
+
+// We will change i=0 to i=3 and also change i<4 to i<6.
 console.log('count from 3 to 5');
+for (let i=3; i<6; i++) {
+  console.log(i);
+}
 
 // 1.c. TODO: Write a for loop to console.log EVEN numbers from 2 to 10
 //   - Which part of the example loop do you need to change to do this?
+
+//We will let i=2 and also i<11, change i++ to i+=2 since we want even numbers
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
+for (let i = 2; i<11; i+=2){
+  console.log('counting even numbers', i);
+}
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a counddown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
-
+for ()
 
 // 2. For of loops  
 console.log('---- 2. For Of loop ----');
